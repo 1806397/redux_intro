@@ -39,7 +39,7 @@ const accountSlice = createSlice({
     },
   },
 });
-console.log(accountSlice);
+// console.log(accountSlice);
 export const { withdraw, requestLoan, payLoan } = accountSlice.actions;
 export default accountSlice.reducer;
 export function deposit(amount, currency) {
